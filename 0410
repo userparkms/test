@@ -3,6 +3,12 @@
 # return sum
 def plus(x, y):
     return x+y
+def min(x,y):
+    return x-y
+def mul(x,y):
+    return x*y
+def div(x,y):
+    return x/y
 
 # main function
 def main():
@@ -16,7 +22,8 @@ def main():
             x = int(input())
             print("Second Number")
             y = int(input())
-            print("answer : ", plus(x,y))
+            print("answer : ", plus(x,y),min(x,y),mul(x,y),div(x,y))
+                 
         elif check > 1:
             print("Unsupported")
         else:
